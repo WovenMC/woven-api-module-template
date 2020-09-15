@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "woven-module-template",
+  "name": "Woven Module Template",
+  "version": "${version}",
+  "description": "Template for Woven API modules.",
+  "environment": "*",
+  "license": "Apache-2.0",
+  "icon": "assets/woven/icon.png",
+  "contact": {
+    "homepage": "https://wovenmc.net",
+    "issues": "https://github.com/WovenMC/woven-module-template/issues",
+    "sources": "https://github.com/WovenMC/woven-module-template"
+  },
+  "authors": [
+      "WovenMC"
+  ],
+  "depends": {
+    "fabricloader": ">=0.9.0"
+  }
+}
