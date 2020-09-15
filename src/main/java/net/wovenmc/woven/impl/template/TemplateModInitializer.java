@@ -16,12 +16,13 @@
 
 package net.wovenmc.woven.impl.template;
 
-import net.fabricmc.api.ModInitializer;
 import org.apache.logging.log4j.LogManager;
 
+import net.fabricmc.api.ModInitializer;
+
 public class TemplateModInitializer implements ModInitializer {
-    @Override
-    public void onInitialize() {
-        LogManager.getLogger("woven_module_template").info("Woven Module Template initialized.");
-    }
+	@Override
+	public void onInitialize() {
+		LogManager.getLogger("woven_module_template").info("Woven Module Template initialized.");
+	}
 }

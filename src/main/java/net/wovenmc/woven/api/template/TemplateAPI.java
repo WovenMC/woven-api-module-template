@@ -20,8 +20,6 @@ package net.wovenmc.woven.api.template;
  * Represents a dummy class as template for API.
  * <p>
  * This should not be present in any module.
- *
- * {@link org.spongepowered.asm.mixin.Mixin}
  */
 public class TemplateAPI {
 }
