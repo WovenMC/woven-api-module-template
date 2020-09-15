@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "woven-module-template",
+  "id": "${namespace}",
   "name": "Woven Module Template",
   "version": "${version}",
   "description": "Template for Woven API modules.",
