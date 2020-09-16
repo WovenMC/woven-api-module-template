@@ -19,7 +19,7 @@ Now you can start writing the module!
  - Implementation is in `net.wovenmc.woven.impl[.(client)|(server)]` package. Other subpackages are allowed. 
  - Mixins is in `net.wovenmc.woven.mixin[.(client)|(server)]` package. Other subpackages are allowed.
  - Mixins JSON are named `<namespace>.mixins.json`.
- - Mixin classes have `Mixin` as suffix.
+ - Mixin classes have `Mixin` as suffix, if the mixin is only an accessor then it has to be suffixed `Accessor` instead of `Mixin`.
 
 ## Source sets
 
