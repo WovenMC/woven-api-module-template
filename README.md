@@ -7,6 +7,5 @@ Please note that in several places you have to replace the modid and name to the
 NOTE: This is currently incomplete.
 
 TODO:
- - add logo
  - checkstyle proof-read
  - add github actions yml
