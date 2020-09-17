@@ -6,7 +6,7 @@ This repository is a template for every Woven module.
 
 Generate a new repository with this template and clone it.
 
-Replace the namespace and description in `gradle.properties` and the name in `fabric.mod.json`.
+Replace the namespace, the name, and description in `gradle.properties` and `fabric.mod.json`.
 Then remove the dummy example classes in `src/main/java`.
 
 Now you can start writing the module!
@@ -48,4 +48,4 @@ You can also use the `updateLicenses` task to update/add the license header to e
 ### Checkstyle
 
 To ensure a common code style there is a checkstyle file, you can check your module code style 
-by executing the `checkstyle` task that will check the coding style and produce a report.
+by executing the `check` task which will check the coding style and produce a report.
